@@ -99,7 +99,7 @@ int main()
         cout << "Not a valid option";
         break;
     }
-    cout << "If you want to continue press 'y'";
+    cout << "If you want to continue press 'y'"<<endl;
     ch=getch();
     }while (ch == 'y'||ch=='Y');
     getch();
